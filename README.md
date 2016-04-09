@@ -13,5 +13,5 @@ matrix2.setConcat(matrix, matrix2);//图顺时针旋转45度和X轴旋转相加<
 然后这时在加上顺时针旋转45度<br>
 matrix2.setConcat(matrix3, matrix2);//在之前的基础上图和X轴都逆时针旋转45度<br>
 变成了<br>
-![thrid](https://github.com/ckenergy/DiagonalRotateAnimation/blob/master/image/Thrid.png) <br>
+![thrid](https://github.com/ckenergy/DiagonalRotateAnimation/blob/master/image/Third.png) <br>
 ![thrid](https://github.com/ckenergy/DiagonalRotateAnimation/blob/master/image/22.gif) 
