@@ -50,8 +50,8 @@ public class DiagonalRotateAnimation extends Animation {
     	mCamera.restore();
     	
     	matrix2.postRotate(-45);//逆时针旋转45度
-        matrix2.setConcat(matrix, matrix2);//图顺时针旋转45度和X轴旋转相加
-        matrix2.setConcat(matrix3, matrix2);//在之前的基础上图和X轴都逆时针旋转45度
+        matrix2.setConcat(matrix, matrix2);//图逆时针旋转45度和X轴旋转相加
+        matrix2.setConcat(matrix3, matrix2);//在之前的基础上图和X轴都顺时针旋转45度
         
         matrix.set(matrix2); 
         matrix2.reset();
